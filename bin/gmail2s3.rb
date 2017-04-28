@@ -7,7 +7,7 @@ upload_folder = Dir.pwd + '/attachments'
 bucket_name = "chetana123123123"
 
 # MAIN
-@gmail = Gmailer.new('asperatest.01@gmail.com', 'Jester11')
+@gmail = Gmailer.new('some_gmail_address@gmail.com', 'your_password')
 
 @gmail.save_attachments()
 
